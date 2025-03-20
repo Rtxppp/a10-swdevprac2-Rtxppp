@@ -23,6 +23,13 @@ export default async function TopMenu() {
         </Link>
       )}
 
+      <div
+        className="flex items-center absolute left-24 h-full
+                    px-2 absoulute left-60 text-cyan-600 text-sm"
+      >
+        <TopMenuItem title="My Booking" pageRef="/mybooking" />
+      </div>
+
       <div className="flex items-center space-x-4">
         <TopMenuItem title="Booking" pageRef="/booking/" />
         <Image
